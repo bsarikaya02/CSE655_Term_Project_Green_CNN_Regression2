@@ -1,0 +1,13 @@
+# CSE655 Green CNN Regression — exact versions used for all results (Python 3.15.2, Windows 11, CPU only).
+# Install:  pip install -r requirements.txt
+# The CPU builds of PyTorch come from the PyTorch package index:
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+torch==2.15.0+cpu
+torchvision==0.29.2+cpu
+codecarbon==3.3.2        # energy / CO2 measurement (emissions/emissions.csv)
+numpy==2.5.5
+pandas==3.1.1
+scikit-learn==1.9.1      # stratified train/val/test split (step 1)
+matplotlib==3.11.2       # architecture figure, error–CO2 Pareto plot
+pillow==13.0.0           # JPEG decoding and resizing of UTKFace images

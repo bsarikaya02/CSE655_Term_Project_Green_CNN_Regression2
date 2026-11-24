@@ -1,0 +1,13 @@
+{
+  "improve_ensemble_own_cnn": "2026-11-22T15:14:37",
+  "resnet18_imagenet_64": "2026-11-22T15:14:47",
+  "mobilenetv3_large_imagenet_64": "2026-11-22T15:14:52",
+  "improve_tta_resnet18": "2026-11-22T15:14:56",
+  "improve_tta_mobilenetv3": "2026-11-22T15:15:05",
+  "baseline_mean": "2026-11-22T15:15:10",
+  "own_cnn_64": "2026-11-22T15:15:12",
+  "own_cnn_48": "2026-11-22T15:15:15",
+  "improve_tta_own_cnn_64": "2026-11-22T15:15:18",
+  "improve_tta_own_cnn_48": "2026-11-22T15:15:23",
+  "improve_ensemble_tta_own_cnn": "2026-11-22T15:15:27"
+}

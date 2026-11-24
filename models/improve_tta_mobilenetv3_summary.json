@@ -1,0 +1,15 @@
+{
+  "run_name": "improve_tta_mobilenetv3",
+  "parts": [
+    "mobilenetv3_large_imagenet_64"
+  ],
+  "flip_tta": true,
+  "val_MAE": 5.092356925035331,
+  "val_RMSE": 7.291172705201938,
+  "val_R2": 0.857853136271407,
+  "train_co2_g": 11.434493768285195,
+  "infer_ms_per_image": 1.130246608271116,
+  "infer_mWh_per_1000": 12.455262460903569,
+  "measurement_energy_Wh": 0.43369223888866226,
+  "measurement_co2_g": 0.20148734249632805
+}

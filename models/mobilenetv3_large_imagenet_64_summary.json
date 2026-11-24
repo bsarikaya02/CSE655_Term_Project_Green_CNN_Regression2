@@ -1,0 +1,16 @@
+{
+  "run_name": "mobilenetv3_large_imagenet_64",
+  "input_size": 64,
+  "max_epochs": 40,
+  "parameters": 4203313,
+  "best_epoch": 39,
+  "epochs_run": 40,
+  "val_MAE": 5.18759629043062,
+  "val_RMSE": 7.455118753624631,
+  "val_R2": 0.8513887652021228,
+  "train_minutes": 34.56839656333333,
+  "train_energy_Wh": 24.61222199611092,
+  "train_co2_g": 11.434493768285195,
+  "infer_ms_per_image": 0.6544461286616875,
+  "infer_mWh_per_1000": 7.944386695066829
+}

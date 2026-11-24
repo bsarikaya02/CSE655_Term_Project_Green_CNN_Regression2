@@ -1,0 +1,15 @@
+{
+  "run_name": "resnet18_imagenet_64",
+  "input_size": 64,
+  "parameters": 11177025,
+  "best_epoch": 17,
+  "epochs_run": 20,
+  "val_MAE": 4.963264880544629,
+  "val_RMSE": 7.092575367433112,
+  "val_R2": 0.865491283080198,
+  "train_minutes": 48.41293939166667,
+  "train_energy_Wh": 39.57621990750052,
+  "train_co2_g": 18.386557701946042,
+  "infer_ms_per_image": 1.7745574411257976,
+  "infer_mWh_per_1000": 21.407274674516408
+}

@@ -1,0 +1,11 @@
+{
+  "model": "MobileNetV3-Large + flip TTA",
+  "run_name": "improve_tta_mobilenetv3",
+  "n_test": 3482,
+  "MAE": 5.110275524365087,
+  "RMSE": 7.694709826600274,
+  "R2": 0.8436622239685533,
+  "seconds": 3.970276399999989,
+  "energy_Wh": 0.05054641055533296,
+  "co2_g": 0.02348315469425992
+}

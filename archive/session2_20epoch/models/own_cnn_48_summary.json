@@ -1,0 +1,15 @@
+{
+  "run_name": "own_cnn_48",
+  "input_size": 48,
+  "parameters": 294129,
+  "best_epoch": 20,
+  "epochs_run": 20,
+  "val_MAE": 5.808099758207353,
+  "val_RMSE": 8.169566636723266,
+  "val_R2": 0.8215401390685688,
+  "train_minutes": 5.208777778333332,
+  "train_energy_Wh": 4.1737260941671135,
+  "train_co2_g": 1.9390547111847223,
+  "infer_ms_per_image": 0.31268857265939143,
+  "infer_mWh_per_1000": 4.205109858650885
+}

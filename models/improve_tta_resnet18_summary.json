@@ -1,0 +1,15 @@
+{
+  "run_name": "improve_tta_resnet18",
+  "parts": [
+    "resnet18_imagenet_64"
+  ],
+  "flip_tta": true,
+  "val_MAE": 4.760459176019168,
+  "val_RMSE": 6.871525499447852,
+  "val_R2": 0.8737449273740062,
+  "train_co2_g": 17.135170532251713,
+  "infer_ms_per_image": 2.4032544830556857,
+  "infer_mWh_per_1000": 28.42481507276148,
+  "measurement_energy_Wh": 0.9897520608335547,
+  "measurement_co2_g": 0.45982495093441783
+}

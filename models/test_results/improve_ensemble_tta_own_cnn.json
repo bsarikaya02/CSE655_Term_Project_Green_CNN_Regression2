@@ -1,0 +1,11 @@
+{
+  "model": "Own CNN ensemble (64+48px) + flip TTA",
+  "run_name": "improve_ensemble_tta_own_cnn",
+  "n_test": 3482,
+  "MAE": 5.486015735447646,
+  "RMSE": 8.011797086164922,
+  "R2": 0.8305118580291241,
+  "seconds": 6.13516930000003,
+  "energy_Wh": 0.08361497972188933,
+  "co2_g": 0.03884634896907368
+}

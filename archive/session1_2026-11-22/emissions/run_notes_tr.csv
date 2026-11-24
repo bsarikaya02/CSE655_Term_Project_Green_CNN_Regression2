@@ -1,0 +1,13 @@
+timestamp,project_name,olcum_durumu,guc_modu,ozette_kullanilan,aciklama
+2026-11-22T00:53:00,own_cnn_64,temiz,dusuk (~9 W CPU),evet,Tek basina calisti; gece dusuk guc modunda olculdu (sabah kosularindan ~4 kat dusuk CPU gucu). Enerji diger modellerle ayni guc modunda degil.
+2026-11-22T00:54:44,own_cnn_64_infer,temiz,dusuk (~8 W CPU),evet,Tek basina; dusuk guc modu.
+2026-11-22T06:14:19,own_cnn_48,uyku,yuksek (~33 W CPU),evet,Egitim sirasinda bilgisayar ~5 saat uykuya gecti (2. epoch 17799 sn); guc modu kosu ortasinda degisti. Enerji 64px ile karsilastirilamaz; val MAE gecerli.
+2026-11-22T06:14:32,own_cnn_48_infer,temiz,yuksek (~30 W CPU),evet,Tek basina; uyku sonrasi.
+2026-11-22T06:57:46,resnet18_imagenet_64,kismen cakismali,yuksek (~37 W CPU),hayir,Son ~7 dakikasi (epoch 18-20) elle baslatilan ikinci kosuyla (06:49) cakisti. Checkpoint ve ozeti ikinci kosu tarafindan uzerine yazildi; en az bozulmus ResNet enerji olcumu budur.
+2026-11-22T06:58:47,resnet18_imagenet_64_infer,cakismali,yuksek (~43 W CPU),hayir,Ikinci ResNet kosusuyla ayni anda.
+2026-11-22T07:38:26,resnet18_imagenet_64,cakismali,yuksek (~39 W CPU),evet,06:49'da terminalden elle baslatilan tekrar kosusu; tum suresi boyunca baska bir egitimle (ResNet #1 ve MobileNet #1) ayni anda calisti. Enerji sisik; val MAE ve checkpoint gecerli.
+2026-11-22T07:39:30,resnet18_imagenet_64_infer,cakismali,yuksek (~33 W CPU),evet,MobileNet #1 ile ayni anda.
+2026-11-22T07:41:23,mobilenetv3_large_imagenet_64,cakismali,yuksek (~39 W CPU),hayir,Tum suresi boyunca ResNet #2 ile ayni anda calisti. Checkpoint ve ozeti MobileNet #2 tarafindan uzerine yazildi.
+2026-11-22T07:41:55,mobilenetv3_large_imagenet_64_infer,kismen cakismali,yuksek (~38 W CPU),hayir,MobileNet #2'nin baslangiciyla cakisti.
+2026-11-22T07:56:52,mobilenetv3_large_imagenet_64,neredeyse temiz,yuksek (~34 W CPU),evet,Elle baslatilan kosunun MobileNet kismi; yalnizca ilk ~2.5 dakikasi (epoch 1-2) MobileNet #1 ile cakisti; sonrasi tek basina (48 sn/epoch).
+2026-11-22T07:57:13,mobilenetv3_large_imagenet_64_infer,temiz,yuksek (~30 W CPU),evet,Tek basina.

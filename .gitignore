@@ -1,0 +1,14 @@
+# Dataset: UTKFace is not redistributed; download it and place the images in UTKFace/
+UTKFace/
+
+# Image cache (built automatically from UTKFace on the first run; large, and a copy of the dataset)
+data/cache/
+
+# Model weights (large binary files). Summaries, training histories, test results and the CodeCarbon logs of
+# models/ and archive/ ARE pushed: the reported tables and the project total are computed from them.
+*.pt
+
+# Python / environment
+__pycache__/
+*.pyc
+.venv/

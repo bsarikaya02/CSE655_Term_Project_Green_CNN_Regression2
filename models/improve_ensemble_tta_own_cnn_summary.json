@@ -1,0 +1,16 @@
+{
+  "run_name": "improve_ensemble_tta_own_cnn",
+  "parts": [
+    "own_cnn_64",
+    "own_cnn_48"
+  ],
+  "flip_tta": true,
+  "val_MAE": 5.313741282304767,
+  "val_RMSE": 7.412930261864143,
+  "val_R2": 0.8530659869880007,
+  "train_co2_g": 6.499935135665691,
+  "infer_ms_per_image": 1.778774534750143,
+  "infer_mWh_per_1000": 23.886794275308393,
+  "measurement_energy_Wh": 0.8317381766662382,
+  "measurement_co2_g": 0.38641391254466095
+}

@@ -1,0 +1,13 @@
+timestamp,project_name,measurement_status,power_mode,used_in_summary,notes
+2026-11-22T00:53:00,own_cnn_64,clean,low (~9 W CPU),yes,"Ran alone; measured at night in a low power mode (~4 times lower CPU power than the morning runs). The energy is not in the same power mode as the other models."
+2026-11-22T00:54:44,own_cnn_64_infer,clean,low (~8 W CPU),yes,"Ran alone; low power mode."
+2026-11-22T06:14:19,own_cnn_48,sleep,high (~33 W CPU),yes,"The computer went to sleep for ~5 hours during training (epoch 2 took 17799 s); the power mode changed in the middle of the run. The energy is not comparable with 64px; the val MAE is valid."
+2026-11-22T06:14:32,own_cnn_48_infer,clean,high (~30 W CPU),yes,"Ran alone; after the sleep."
+2026-11-22T06:57:46,resnet18_imagenet_64,partially overlapping,high (~37 W CPU),no,"Its last ~7 minutes (epochs 18-20) overlapped with a second run started manually (06:49). Its checkpoint and summary were overwritten by the second run; this is the least distorted ResNet energy measurement."
+2026-11-22T06:58:47,resnet18_imagenet_64_infer,overlapping,high (~43 W CPU),no,"At the same time as the second ResNet run."
+2026-11-22T07:38:26,resnet18_imagenet_64,overlapping,high (~39 W CPU),yes,"Repeat run started manually from the terminal at 06:49; ran at the same time as another training (ResNet #1 and MobileNet #1) for its whole duration. The energy is inflated; the val MAE and checkpoint are valid."
+2026-11-22T07:39:30,resnet18_imagenet_64_infer,overlapping,high (~33 W CPU),yes,"At the same time as MobileNet #1."
+2026-11-22T07:41:23,mobilenetv3_large_imagenet_64,overlapping,high (~39 W CPU),no,"Ran at the same time as ResNet #2 for its whole duration. Its checkpoint and summary were overwritten by MobileNet #2."
+2026-11-22T07:41:55,mobilenetv3_large_imagenet_64_infer,partially overlapping,high (~38 W CPU),no,"Overlapped with the start of MobileNet #2."
+2026-11-22T07:56:52,mobilenetv3_large_imagenet_64,nearly clean,high (~34 W CPU),yes,"MobileNet part of the manually started run; only its first ~2.5 minutes (epochs 1-2) overlapped with MobileNet #1; alone afterwards (48 s/epoch)."
+2026-11-22T07:57:13,mobilenetv3_large_imagenet_64_infer,clean,high (~30 W CPU),yes,"Ran alone."
