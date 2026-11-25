@@ -69,10 +69,10 @@ Run the five scripts in order from this folder. Each script prints its tables to
 | Step | Command | What it does | Report |
 |---|---|---|---|
 | 1 | `python 1_dataset_and_problem.py` | Cleaning (23,279 → 23,213 images), fixed split, loss/metric comparison, mean and median baselines, baseline group errors | Step 1 |
-| 2 | `python 2_own_cnn.py` | AgeCNN architecture figure, training at 64 px, per-layer table, MACs, design costs, 48-px ablation | Step 2, Tables 1–3, Appendix A |
-| 3 | `python 3_comparing_standard_models.py` | Fine-tuning ResNet-18 and MobileNetV3-Large, pretraining-footprint estimate, fairness check | Step 3, Tables 4–5 |
-| 4 | `python 4_footprint.py` | Footprint-reduction experiments, per-model footprint, project total, hardware | Step 4, Tables 6–8 |
-| 5 | `python 5_score_control.py` | Flip TTA and ensemble, acceptance check, test evaluation, results table, error–CO2 plot, bias tables | Step 5, Tables 9–11, Figure 1 |
+| 2 | `python 2_own_cnn.py` | AgeCNN architecture figure, training at 64 px, per-layer table, MACs, design costs, 48-px ablation | Step 2, Table 2; Table 1 and Appendix A |
+| 3 | `python 3_comparing_standard_models.py` | Fine-tuning ResNet-18 and MobileNetV3-Large, pretraining-footprint estimate, fairness check | Step 3, Table 3; Table 4 in Appendix D |
+| 4 | `python 4_footprint.py` | Footprint-reduction experiments, per-model footprint, project total, hardware | Step 4, Tables 7 and 9; Tables 5, 6, 8 in Appendix E |
+| 5 | `python 5_score_control.py` | Flip TTA and ensemble, acceptance check, test evaluation, results table, error–CO2 plot, bias tables | Step 5, Tables 10–12, Figure 1; Table 13 in Appendix F |
 
 Options of step 1: `--rebuild` rescans the `UTKFace/` folder, `--resplit` rebuilds the split (do not use it
 after models have been trained, or the comparison is no longer on the same split).
@@ -119,8 +119,8 @@ load, one run at a time.
 | `models/latency/`, `models/bias/`, `models/reduction/` | Batch-1 latency, validation predictions for the bias analysis, footprint-reduction measurements |
 | `emissions/emissions.csv` | CodeCarbon log of every run of the second (reported) session |
 | `archive/session1_2026-11-22/emissions/emissions.csv` | CodeCarbon log of the first, archived session (included in the project total) |
-| `results/results.csv` (copy of `results/results_table_test.csv`) | Main results table (Table 10) |
-| `results/bias_by_group_test.csv` | Test error per age group, gender and ethnicity (Table 11) |
+| `results/results.csv` (copy of `results/results_table_test.csv`) | Main results table (Table 11) |
+| `results/bias_by_group_test.csv` | Test error per age group, gender and ethnicity (Tables 12–13) |
 | `figures/error_vs_co2_test.png` | Error vs. CO2 plot with the Pareto front (Figure 1) |
 | `figures/own_cnn_architecture.png` | Architecture figure (Step 2) |
 | `figures/learning_curves.png` | Validation MAE per epoch (Appendix B), drawn from `models/*_history.csv` outside the five scripts |
